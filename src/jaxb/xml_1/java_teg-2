@@ -1,0 +1,25 @@
+Теги	                Описание
+<animal:cat>	        Тег cat с префиксом animal
+
+
+<animal:cat>
+</animal:cat>           Два тега cat с разными префиксами.
+<zoo:cat>
+</zoo:cat>
+
+
+<animal:cat zoo:name=»MX»>	    Тег cat с префиксом animal, атрибут name с префиксом zoo.
+
+Префиксы еще называют "namespace" – пространство имен
+
+
+
+
+
+
+Escape-последовательность	Символ, который она заменяет
+&amp;	                        &
+&quot;	                        «
+&lt;	                        <
+&gt;	                        >
+&apos;	                        ‘
