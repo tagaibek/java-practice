@@ -1,4 +1,4 @@
-#Practice Tasks
+# Practice Tasks
 1. https://acmp.ru/?main=task&id_task=46
 2. https://acmp.ru/?main=task&id_task=324
 3. https://acmp.ru/?main=task&id_task=119
