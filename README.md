@@ -1,3 +1,7 @@
+## Practice Tasks:
+*
+* 
+
 ### Core Java
 1. Class
 2. Constructor - matches with name of the class | совпадает названием класса.
@@ -160,4 +164,9 @@ class Boot{
       }
   } =====> public int getArtificialValue(){ return isArtificial ? 1 : 2;}
 ```
+  
+  
+  * `NullpointerException` = когда значение переменного `null`, но программа пытается вызвать свойства или методы 
+  у этого обьекта
+  * `ArrayOutOfBoundsException` = когда программа вызывает значение в массиве по индексу который не существует.
   
