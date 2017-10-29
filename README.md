@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 ## Practice Tasks:
 *
 * 
+=======
+# Practice Tasks
+1. https://acmp.ru/?main=task&id_task=46
+2. https://acmp.ru/?main=task&id_task=324
+3. https://acmp.ru/?main=task&id_task=119
+>>>>>>> c8682efa82cd5213f264e9b5b5245196a7f76511
 
 ### Core Java
 1. Class
@@ -165,8 +172,11 @@ class Boot{
   } =====> public int getArtificialValue(){ return isArtificial ? 1 : 2;}
 ```
   
+<<<<<<< HEAD
   
   * `NullpointerException` = когда значение переменного `null`, но программа пытается вызвать свойства или методы 
   у этого обьекта
   * `ArrayOutOfBoundsException` = когда программа вызывает значение в массиве по индексу который не существует.
   
+=======
+>>>>>>> c8682efa82cd5213f264e9b5b5245196a7f76511
