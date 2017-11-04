@@ -1,5 +1,6 @@
 # Practice Tasks
 1. http://acmp.ru/index.asp?main=task&id_task=62 - chess
+2. http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
 
 ### Core Java
 1. Class
