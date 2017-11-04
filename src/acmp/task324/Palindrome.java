@@ -1,4 +1,4 @@
-package exams.exams2810;
+package acmp.task324;
 
 import utils.AdylUtils;
 

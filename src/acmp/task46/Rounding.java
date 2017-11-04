@@ -1,4 +1,4 @@
-package exams.exams2810;
+package acmp.task46;
 
 import utils.AdylUtils;
 
@@ -20,7 +20,6 @@ public class Rounding {
                 result[i]=chars[i];
             }
         }
-
         int index1  = Character.digit((result[result.length -1]),10);
         int index2 = Character.digit((result[result.length -2]),10);
         if (index1>5){
