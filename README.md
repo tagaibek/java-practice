@@ -1,12 +1,13 @@
-# Practice Tasks
-1. `http://acmp.ru/index.asp?main=task&id_task=62 - chess`
-2. `http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers`
+## New Tasks
+1. http://acmp.ru/index.asp?main=task&id_task=678 - shuler
+2. http://acmp.ru/index.asp?main=task&id_task=148 - gcd ( greatest common divisor )
+3. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
+4. http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
+5. http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
 
-3. http://acmp.ru/index.asp?main=task&id_task=678 - shuler
-4. http://acmp.ru/index.asp?main=task&id_task=148 - gcd ( greatest common divisor )
-5. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
-6. http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
-7. http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
+### Done Tasks
+* http://acmp.ru/index.asp?main=task&id_task=62 - chess
+* http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
 
 ### Core Java
 1. Class
