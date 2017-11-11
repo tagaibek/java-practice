@@ -2,7 +2,6 @@
 1. `http://acmp.ru/index.asp?main=task&id_task=62 - chess`
 2. `http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers`
 <br/>
-
 3. http://acmp.ru/index.asp?main=task&id_task=678 - shuler
 4. http://acmp.ru/index.asp?main=task&id_task=148 - gcd ( greatest common divisor )
 5. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
