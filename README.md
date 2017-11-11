@@ -1,9 +1,11 @@
 ## New Tasks
 1. http://acmp.ru/index.asp?main=task&id_task=678 - shuler
 2. http://acmp.ru/index.asp?main=task&id_task=148 - gcd ( greatest common divisor )
-3. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
-4. http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
-5. http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
+3. https://projecteuler.net/problem=1 - multiples of 3 & 5
+4. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
+5. http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
+6. http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
+7. https://projecteuler.net/problem=9 - pythagorean
 
 ### Done Tasks
 * http://acmp.ru/index.asp?main=task&id_task=62 - chess
