@@ -7,6 +7,7 @@
 4. http://acmp.ru/index.asp?main=task&id_task=148 - gcd ( greatest common divisor )
 5. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
 6. http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
+7. http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
 
 ### Core Java
 1. Class
