@@ -1,6 +1,6 @@
 package exams.exam0806;
 
-import utils.AdylUtils;
+import acmp.utils.AdylUtils;
 
 import java.io.IOException;
 

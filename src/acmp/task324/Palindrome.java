@@ -1,6 +1,6 @@
 package acmp.task324;
 
-import utils.AdylUtils;
+import acmp.utils.AdylUtils;
 
 import java.io.IOException;
 

@@ -3,54 +3,30 @@ package acmp.task691;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
 
-public class BusNumber {
+public class BusNumberV2 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String s = reader.readLine();
-        System.out.println(getTest(s));
+        String result = getTest(s);
+
+        System.out.println(result);
     }
 
     private static String getTest(String s) {
-        String[] arrStin = s.split("");
-        String yes = "";
-        String no = "";
-        // A, B, C, E, H, K, M, O, P, T, X, Y.
-        String[] strings = {"A", "B", "C", "E", "H", "M", "O", "P", "T", "X", "Y"};
-        //0<9
-        String[] ints = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
-        for (String string2 : strings) {
-            if (Objects.equals(arrStin[0], string2)) {
-                for (String string : strings) {
-                    if (Objects.equals(arrStin[4], string)) {
-                        for (String string1 : strings) {
-                            if (Objects.equals(arrStin[5], string1)) {
-                                yes = "Yes";
-                            }
-                        }
-                    }
-                }
-            } else no = "No";
-        }
-        
-        for (String in : ints) {
-            if (Objects.equals(arrStin[1], in)) {
-                for (String in1 : ints) {
-                    if (Objects.equals(arrStin[2], in1)) {
-                        for (String in3 : ints) {
-                            if (Objects.equals(arrStin[3], in3)) {
-                                yes = yes + "Yes";
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        if (Objects.equals(yes, "YesYes")) {
-            return "Yes";
-        } else
-            return no;
+        char[] busChars = s.toCharArray();
+        List<Character> chars = Arrays.asList('A', 'B', 'C', 'E', 'H', 'M', 'O', 'P', 'T', 'X', 'Y');
+        List<Character> ints = Arrays.asList('1','2','3','4','5','6','7','8','9');
 
+        if(chars.contains(busChars[0]) && (chars.contains(busChars[4])) && chars.contains(busChars[5])
+                && (ints.contains(busChars[1])) && ints.contains(busChars[2]) && (ints.contains(busChars[3]))){
+            return "yes";
+        }
+
+        return "no";
     }
 }

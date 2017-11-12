@@ -1,6 +1,7 @@
 ## New Tasks
 1. http://acmp.ru/index.asp?main=task&id_task=678 - shuler
-2. http://acmp.ru/index.asp?main=task&id_task=148 - gcd ( greatest common divisor )
+2. http://acmp.ru/
+ - gcd ( greatest common divisor )
 3. https://projecteuler.net/problem=1 - multiples of 3 & 5
 4. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
 5. http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
@@ -166,12 +167,17 @@ class Boot{
 
   public int getArtifiicalValue(){
 
+      int = i
       if( isArtificial ) {
-        return 1;
+        i = 1;
       } else {
-        return 2;
+        i = 2;
       }
-  } =====> public int getArtificialValue(){ return isArtificial ? 1 : 2;}
+      
+      return i;
+  } =====> public int getArtificialValue(){ 
+  int i = isArtificial ? 1: 2;
+  return i; }
 ```
   
 ### Exceptions | Errors - Ошибки

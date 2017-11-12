@@ -1,6 +1,6 @@
 package practice.bishkek_03_10;
 
-import utils.AdylUtils;
+import acmp.utils.AdylUtils;
 
 import java.io.IOException;
 

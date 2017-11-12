@@ -1,4 +1,4 @@
-package exams.exams2810.sort;
+package acmp.sort;
 
 
 import java.io.BufferedReader;

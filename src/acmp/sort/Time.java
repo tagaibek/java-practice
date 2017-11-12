@@ -1,4 +1,4 @@
-package exams.exams2810.sort;
+package acmp.sort;
 
 public class Time {
     private int hours;
