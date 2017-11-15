@@ -1,14 +1,13 @@
-## New Tasks
-1. http://acmp.ru/index.asp?main=task&id_task=678 - shuler
-2. http://acmp.ru/
- - gcd ( greatest common divisor )
-3. https://projecteuler.net/problem=1 - multiples of 3 & 5
-4. http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
-5. http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
-6. http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
-7. https://projecteuler.net/problem=9 - pythagorean
+- http://acmp.ru/index.asp?main=task&id_task=294 - nuts
+- http://acmp.ru/index.asp?main=task&id_task=26  - circle
 
-### Done Tasks
++ http://acmp.ru/index.asp?main=task&id_task=678 - shuler
++ http://acmp.ru/- gcd ( greatest common divisor )
++ https://projecteuler.net/problem=1 - multiples of 3 & 5
++ http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
++ http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
++ http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
++ https://projecteuler.net/problem=9 - pythagorean
 * http://acmp.ru/index.asp?main=task&id_task=62 - chess
 * http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
 
