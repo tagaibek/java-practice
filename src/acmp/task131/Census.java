@@ -20,12 +20,13 @@ public class Census {
         }
         int age = 0;
         int number = 0;
+        int num = 0;
         for (int i = 0; i<humans.size();i++){
             Human iHuman = humans.get(i);
             if (iHuman.getGender()==1){
-                if (iHuman.getAge()>=age){
+                if (iHuman.getAge() >= age){
                     age=iHuman.getAge();
-                    number = iHuman.getNumber();
+                    number = number <= iHuman.getNumber() ? number : iHuman.getNumber() ;
                 }
             }
         }
