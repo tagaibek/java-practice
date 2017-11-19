@@ -13,26 +13,20 @@ public class Census {
 
         List<Human> humans = new ArrayList<>();
 
+        int line = 1;
         for (int i = 0; i < n; i++) {
             String humanStr = reader.readLine();
-            Human human = new Human(humanStr);
+            Human human = new Human(humanStr, line);
             humans.add(human);
+            line++;
         }
-        int age = 0;
-        int number = 0;
-        int num = 0;
-        for (int i = 0; i<humans.size();i++){
-            Human iHuman = humans.get(i);
-            if (iHuman.getGender()==1){
-                if (iHuman.getAge() >= age){
-                    age=iHuman.getAge();
-                    number = number <= iHuman.getNumber() ? number : iHuman.getNumber() ;
-                }
+        Human h = null;
+        for (Human iHuman : humans) {
+            if (iHuman.getGender() == 1 && (h == null || iHuman.getAge() > h.getAge())) {
+                h = iHuman;
             }
         }
-        if (number > 0){
-            System.out.println(number);
-        }
-        else System.out.println("-1");
+
+        System.out.println(h != null ? h.getLine() : "-1");
     }
 }
