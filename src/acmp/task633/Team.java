@@ -16,12 +16,10 @@ public class Team {
         thirdName = team.getThirdName();
     }
 
-    public Team (String teamStr){
-        String[] s = teamStr.split(" ");
-        teamName  = s[0]+" "+s[1];
+    public Team (String[] teamStr){
+        teamName  = teamStr[0];
 
-        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(s));
-        arrayList.remove(0);
+        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(teamStr));
         arrayList.remove(0);
         String[] arr = arrayList.toArray(new String[arrayList.size()]);
         Arrays.sort(arr);
