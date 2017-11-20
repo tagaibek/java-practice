@@ -178,7 +178,8 @@ class Boot{
 ```
 
 ```java
-  int i = isArtificial ? 1: 2;
+  int b = 0;
+  String result = ( b < 5 ) ? "Yes": "No";
 ```
   
 ### Exceptions | Errors - Ошибки
