@@ -1,6 +1,5 @@
 
-+ http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
-
+* http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
 * http://acmp.ru/index.asp?main=task&id_task=62 - chess
 * http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
 * http://acmp.ru/index.asp?main=task&id_task=294 - nuts
