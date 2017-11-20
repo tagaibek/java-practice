@@ -7,6 +7,7 @@
 - https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
 - http://acmp.ru/index.asp?main=task&id_task=85 - gcd1
 - http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse
+- https://www.hackerrank.com/challenges/queue-using-two-stacks/problem - queue
 
 ### Reviewed
 * http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
