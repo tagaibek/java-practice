@@ -161,26 +161,24 @@ class Boot{
 ### Tips - шпаргалки
  instanceof - условное ключевое слово, проверяет тип обьекта.
  
-```
+```java
  !true = false
  !false = true
  !isArtificial = (isArtificial == false)
+```
 
- isArtificial ? = if( isArtificial )
+```java
+  int b = 0;
+  String result;
+  if( b < 5) {
+    restult = "Yes"
+  } else {
+    result = "No"
+  }
+```
 
-  public int getArtifiicalValue(){
-
-      int = i
-      if( isArtificial ) {
-        i = 1;
-      } else {
-        i = 2;
-      }
-      
-      return i;
-  } =====> public int getArtificialValue(){ 
+```java
   int i = isArtificial ? 1: 2;
-  return i; }
 ```
   
 ### Exceptions | Errors - Ошибки
