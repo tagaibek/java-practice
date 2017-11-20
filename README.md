@@ -1,5 +1,9 @@
 ### New
-- http://acmp.ru/index.asp?main=task&id_task=642
+- http://acmp.ru/index.asp?main=task&id_task=642 - business
+- http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical
+- http://acmp.ru/index.asp?main=task&id_task=271 - fibonacci2
+- http://acmp.ru/index.asp?main=task&id_task=85 - gcd1
+- http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse
 
 ### Reviewed
 * http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
