@@ -1,7 +1,10 @@
 ### New
 - http://acmp.ru/index.asp?main=task&id_task=642 - business
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical
+- https://www.hackerrank.com/challenges/java-datatypes/problem - datatypes
+- http://acmp.ru/index.asp?main=task&id_task=95 - numerologist
 - http://acmp.ru/index.asp?main=task&id_task=271 - fibonacci2
+- https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
 - http://acmp.ru/index.asp?main=task&id_task=85 - gcd1
 - http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse
 
