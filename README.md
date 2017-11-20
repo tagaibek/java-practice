@@ -1,6 +1,8 @@
+### New
+- http://acmp.ru/index.asp?main=task&id_task=642
 
-+ http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
-
+### Reviewed
+* http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
 * http://acmp.ru/index.asp?main=task&id_task=62 - chess
 * http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
 * http://acmp.ru/index.asp?main=task&id_task=294 - nuts
@@ -11,7 +13,7 @@
 * http://acmp.ru/- gcd ( greatest common divisor )
 * http://acmp.ru/index.asp?main=task&id_task=317 - santa 
 * http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
-*  http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
+* http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
 
 ### Core Java
 1. Class
