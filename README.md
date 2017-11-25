@@ -1,4 +1,20 @@
+### New
 
+- http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical ?
+- https://www.hackerrank.com/challenges/java-datatypes/problem - datatypes ?
+- http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse ?
+- https://www.hackerrank.com/challenges/queue-using-two-stacks/problem - queue ?
+
++ http://acmp.ru/index.asp?main=task&id_task=642 - business
++ http://acmp.ru/index.asp?main=task&id_task=95 - numerologist
++ http://acmp.ru/index.asp?main=task&id_task=85 - gcd1
++ http://acmp.ru/index.asp?main=task&id_task=271 - fibonacci2
++ https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
+
+<<<<<<< HEAD
+=======
+### Reviewed
+>>>>>>> c820754853bd343ca750a01a59089cb4427ddefc
 * http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
 * http://acmp.ru/index.asp?main=task&id_task=62 - chess
 * http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
@@ -10,7 +26,7 @@
 * http://acmp.ru/- gcd ( greatest common divisor )
 * http://acmp.ru/index.asp?main=task&id_task=317 - santa 
 * http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
-*  http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
+* http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
 
 ### Core Java
 1. Class
@@ -158,26 +174,25 @@ class Boot{
 ### Tips - шпаргалки
  instanceof - условное ключевое слово, проверяет тип обьекта.
  
-```
- !true = false
+```java
+ /*!true = false
  !false = true
  !isArtificial = (isArtificial == false)
+```
 
- isArtificial ? = if( isArtificial )
+```java
+  /*int b = 0;
+  String result;
+  if( b < 5) {
+    restult = "Yes"
+  } else {
+    result = "No"
+  }
+```
 
-  public int getArtifiicalValue(){
-
-      int = i
-      if( isArtificial ) {
-        i = 1;
-      } else {
-        i = 2;
-      }
-      
-      return i;
-  } =====> public int getArtificialValue(){ 
-  int i = isArtificial ? 1: 2;
-  return i; }
+```java
+  /*int b = 0;
+  String result = ( b < 5 ) ? "Yes": "No";
 ```
   
 ### Exceptions | Errors - Ошибки
