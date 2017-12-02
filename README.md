@@ -2,16 +2,16 @@
 
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical
 
-+ http://acmp.ru/index.asp?main=task&id_task=642 - business
-+ http://acmp.ru/index.asp?main=task&id_task=95 - numerologist
-+ http://acmp.ru/index.asp?main=task&id_task=85 - gcd1
-+ http://acmp.ru/index.asp?main=task&id_task=271 - fibonacci2
-+ https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
-+ https://www.hackerrank.com/challenges/java-datatypes/problem - datatypes 
-+ http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse 
-+ https://www.hackerrank.com/challenges/queue-using-two-stacks/problem- queue
++ http://acmp.ru/index.asp?main=task&id_task=95 - numerologist!!!
++ http://acmp.ru/index.asp?main=task&id_task=85 - gcd1!!!
++ https://www.hackerrank.com/challenges/java-datatypes/problem - datatypes
++ http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse
 
 ### Reviewed
+* https://www.hackerrank.com/challenges/queue-using-two-stacks/problem - queue
+* https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
+* http://acmp.ru/index.asp?main=task&id_task=271 - fibonacci2
+* http://acmp.ru/index.asp?main=task&id_task=642 - business
 * http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
 * http://acmp.ru/index.asp?main=task&id_task=62 - chess
 * http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
@@ -195,4 +195,4 @@ class Boot{
 ### Exceptions | Errors - Ошибки
   * `NullpointerException` = когда значение переменного `null`, но программа пытается вызвать свойства или методы 
   у этого обьекта
-  * `ArrayIndexOutOfBoundsException` = когда программа вызывает значение в массиве по индексу который не существует.
+  * `ArrayOutOfBoundsException` = когда программа вызывает значение в массиве по индексу который не существует.
