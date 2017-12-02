@@ -25,6 +25,8 @@
 * http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
 * http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
 
+## DRY - DON'T REPEAT YOURSELF
+
 ### Core Java
 1. Class
 2. Constructor - matches with name of the class | совпадает названием класса.
