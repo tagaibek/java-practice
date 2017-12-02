@@ -1,6 +1,6 @@
 ### New
 
-- http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical ?
+- http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical
 
 + http://acmp.ru/index.asp?main=task&id_task=642 - business
 + http://acmp.ru/index.asp?main=task&id_task=95 - numerologist
