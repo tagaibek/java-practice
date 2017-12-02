@@ -1,12 +1,12 @@
 ### New
 
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical ?
-- https://www.hackerrank.com/challenges/java-datatypes/problem - datatypes ?
-- http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse ?
-- https://www.hackerrank.com/challenges/queue-using-two-stacks/problem - queue ?
 
 + http://acmp.ru/index.asp?main=task&id_task=95 - numerologist!!!
 + http://acmp.ru/index.asp?main=task&id_task=85 - gcd1!!!
++ https://www.hackerrank.com/challenges/java-datatypes/problem - datatypes
++ http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse
++ https://www.hackerrank.com/challenges/queue-using-two-stacks/problem - queue
 
 ### Reviewed
 * https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
