@@ -5,16 +5,13 @@
 - http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse ?
 - https://www.hackerrank.com/challenges/queue-using-two-stacks/problem - queue ?
 
-+ http://acmp.ru/index.asp?main=task&id_task=642 - business
-+ http://acmp.ru/index.asp?main=task&id_task=95 - numerologist
-+ http://acmp.ru/index.asp?main=task&id_task=85 - gcd1
-+ http://acmp.ru/index.asp?main=task&id_task=271 - fibonacci2
-+ https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
++ http://acmp.ru/index.asp?main=task&id_task=95 - numerologist!!!
++ http://acmp.ru/index.asp?main=task&id_task=85 - gcd1!!!
 
-<<<<<<< HEAD
-=======
 ### Reviewed
->>>>>>> c820754853bd343ca750a01a59089cb4427ddefc
+* https://www.hackerrank.com/challenges/array-left-rotation/problem - left-rotation
+* http://acmp.ru/index.asp?main=task&id_task=271 - fibonacci2
+* http://acmp.ru/index.asp?main=task&id_task=642 - business
 * http://acmp.ru/index.asp?main=task&id_task=44 - arrow 
 * http://acmp.ru/index.asp?main=task&id_task=62 - chess
 * http://acmp.ru/index.asp?main=task&id_task=691 - bus numbers
