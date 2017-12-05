@@ -11,8 +11,6 @@
 - http://acmp.ru/index.asp?main=task&id_task=63 - riddle
 - http://acmp.ru/index.asp?main=task&id_task=439 - Amdahl's law 
 
-
-
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical
 
 + http://acmp.ru/index.asp?main=task&id_task=95 - numerologist!!!
