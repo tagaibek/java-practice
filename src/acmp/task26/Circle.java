@@ -18,6 +18,7 @@ public class Circle {
         int y1 = arr1[1];
         int r1 = arr1[2];
 
+
         int x2 = arr2[0];
         int y2 = arr2[1];
         int r2 = arr2[2];
@@ -27,6 +28,6 @@ public class Circle {
         int a = (x2-x1)*(x2 - x1)+(y2-y1) * (y2 - y1);
         double b = Math.sqrt(a);
         //int i = isArtificial ? 1: 2;
-       return b <=r ? "Yes" : "No";
+        return b <=r ? "Yes" : "No";
     }
 }
