@@ -23,7 +23,7 @@ public class DogGopher {
 
             a += a;
             if (a < b) {
-                System.out.println(i + 1);
+                System.out.println(i+i );
                 ok = true;
                 break;
             }
