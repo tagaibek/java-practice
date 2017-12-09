@@ -1,16 +1,14 @@
 ### New
 - https://www.hackerrank.com/challenges/java-date-and-time/problem - calendar
 - https://coderbyte.com/editor/guest:Longest%20Word:Java - longest word
+- https://coderbyte.com/editor/guest:Time%20Convert:Java - time 
 - https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes
-- https://coderbyte.com/editor/guest:Simple%20Symbols:Java - simple symbols
-- https://coderbyte.com/editor/guest:Time%20Convert:Java - time converter
 - https://community.topcoder.com/stat?c=problem_statement&pm=7558 - AdvertisingAgency
 - https://community.topcoder.com/stat?c=problem_statement&pm=13642 - AB
 - http://acmp.ru/index.asp?main=task&id_task=688 - gopher & dog
 - http://acmp.ru/index.asp?main=task&id_task=15 - milky way
 - http://acmp.ru/index.asp?main=task&id_task=63 - riddle
 - http://acmp.ru/index.asp?main=task&id_task=439 - Amdahl's law 
-
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical
 
 + http://acmp.ru/index.asp?main=task&id_task=95 - numerologist!!!
@@ -18,6 +16,7 @@
 
 
 ### Reviewed
+* https://coderbyte.com/editor/guest:Simple%20Symbols:Java - simple symbols
 * http://acmp.ru/index.asp?main=task&id_task=542 - bit-reverse
 * https://www.hackerrank.com/challenges/java-datatypes/problem - data types
 * https://www.hackerrank.com/challenges/queue-using-two-stacks/problem - queue

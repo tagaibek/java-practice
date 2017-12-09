@@ -16,11 +16,11 @@ public class MilkyWay {
         int k = 0;
         for (int i = 0; i < a; i++) {
             for (int j = 0; j < a; j++) {
-                if (ints[i]==ints[j]){
+                if (ints[i][j]==1){
                     k++;
                 }
             }
         }
-        System.out.println(k);
+        System.out.println(k/2);
     }
 }
