@@ -24,17 +24,17 @@ public class Gcd1 {
         }
         int oneN = Integer.parseInt(one2);
         int oneM = Integer.parseInt(one);
-        int z = 0;
-        int gcd;
+        int gcd = 0;
+        int min;
 
-        if (oneM > oneN){ gcd = oneM;}
-        else gcd = oneN;
-        for (int i = 1; i <= gcd; i++){
+        if (oneM > oneN){ min = oneM;}
+        else min = oneN;
+        for (int i = 1; i <= min; i++){
             if ((oneM % i == 0) && (oneN % i == 0)) {
-                z = i;
+                gcd = i;
             }
         }
-        return z;
+        return gcd;
     }
 }
 
