@@ -5,10 +5,9 @@
 
 
 - https://community.topcoder.com/stat?c=problem_statement&pm=13642 - AB!!!
-- http://acmp.ru/index.asp?main=task&id_task=15 - milky way!!!
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
 
-
++ http://acmp.ru/index.asp?main=task&id_task=15 - milky way
 
 ### Reviewed
 * http://acmp.ru/index.asp?main=task&id_task=439 - Amdahl's law
