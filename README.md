@@ -7,9 +7,8 @@
 - https://community.topcoder.com/stat?c=problem_statement&pm=13642 - AB!!!
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
 
-+ http://acmp.ru/index.asp?main=task&id_task=15 - milky way
-
 ### Reviewed
+* http://acmp.ru/index.asp?main=task&id_task=15 - milky way // 5 - good one
 * http://acmp.ru/index.asp?main=task&id_task=439 - Amdahl's law
 * https://coderbyte.com/editor/guest:Time%20Convert:Java - time 
 * https://community.topcoder.com/stat?c=problem_statement&pm=7558 - AdvertisingAgency
