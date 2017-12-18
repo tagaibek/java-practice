@@ -1,15 +1,19 @@
 ### New
+- http://acmp.ru/index.asp?main=task&id_task=606 - triangle
+- http://acmp.ru/index.asp?main=task&id_task=124 - lights
+- https://coderbyte.com/editor/guest:Closest%20Enemy%20II:Java - closest enemy
+- https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
+- https://coderbyte.com/editor/guest:Questions%20Marks:Java - question marks
+
 - https://www.hackerrank.com/challenges/java-date-and-time/problem - calendar
-
-
 - https://community.topcoder.com/stat?c=problem_statement&pm=13642 - AB!!!
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
 
 + https://coderbyte.com/editor/guest:Longest%20Word:Java - longest word 
 + https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes
-+ http://acmp.ru/index.asp?main=task&id_task=15 - milky way
 
 ### Reviewed
+* http://acmp.ru/index.asp?main=task&id_task=15 - milky way // 5 - good one
 * http://acmp.ru/index.asp?main=task&id_task=439 - Amdahl's law
 * https://coderbyte.com/editor/guest:Time%20Convert:Java - time 
 * https://community.topcoder.com/stat?c=problem_statement&pm=7558 - AdvertisingAgency
