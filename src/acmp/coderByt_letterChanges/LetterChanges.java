@@ -1,6 +1,5 @@
 package acmp.coderByt_letterChanges;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class LetterChanges {
@@ -15,30 +14,16 @@ public class LetterChanges {
 
     private static String changes(char[] chars) {
         char[] chars1 = new char[chars.length];
-        int j = 0;
-        for (char i : chars) {
-            if (i >= 97 && i <= 122) {
-                chars1[j] = (char) (i + 1);
-                j++;
-            } else{
-                chars1[j] = i ;
-                j++;
-            }
+        int i = 0;
+        for (char c : chars) {
+            chars1[i++] =(c >= 97 && c <= 121 )? (char) (c + 1) : (c == 122) ? 97 : c;
         }
         char[] charsV = new char[chars1.length];
         int k = 0;
-        for (char i : chars1){
-            if (i == 97 || i == 101 || i == 105 || i == 111 || i == 117 || i == 121) {
-                char s = (char) (i - 32);
-                charsV[k] = s;
-                k++;
-            }
-            else {
-                charsV[k] = i;
-                k++;
-            }
+        for (char c : chars1){
+            charsV[k++] = (c == 97 || c == 101 || c == 105 || c == 111 || c == 117 || c == 121) ? (char) (c - 32) : c;
         }
-        String string = new String(charsV);
-        return string;
+
+        return new String(charsV);
     }
 }

@@ -147,6 +147,7 @@ class Boot{
 ### Tips - шпаргалки
  instanceof - условное ключевое слово, проверяет тип обьекта.
  
+#### Ternary Operation
 ```java
  /*!true = false
  !false = true

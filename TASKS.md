@@ -9,9 +9,9 @@
 - https://community.topcoder.com/stat?c=problem_statement&pm=13642 - AB!!!
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
  
-+ https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes
 
 ### Reviewed
+* https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes
 * https://coderbyte.com/editor/guest:Longest%20Word:Java - longest word
 * http://acmp.ru/index.asp?main=task&id_task=15 - milky way // 5 - good one
 * http://acmp.ru/index.asp?main=task&id_task=439 - Amdahl's law
