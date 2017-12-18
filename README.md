@@ -1,12 +1,12 @@
 ### New
 - https://www.hackerrank.com/challenges/java-date-and-time/problem - calendar
-- https://coderbyte.com/editor/guest:Longest%20Word:Java - longest word
-- https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes 
 
 
 - https://community.topcoder.com/stat?c=problem_statement&pm=13642 - AB!!!
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
 
++ https://coderbyte.com/editor/guest:Longest%20Word:Java - longest word 
++ https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes
 + http://acmp.ru/index.asp?main=task&id_task=15 - milky way
 
 ### Reviewed
