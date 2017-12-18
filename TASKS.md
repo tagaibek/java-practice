@@ -5,12 +5,12 @@
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 - https://coderbyte.com/editor/guest:Questions%20Marks:Java - question marks
 
-- https://www.hackerrank.com/challenges/java-date-and-time/problem - calendar
 - https://community.topcoder.com/stat?c=problem_statement&pm=13642 - AB!!!
 - http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
  
 
 ### Reviewed
+* https://www.hackerrank.com/challenges/java-date-and-time/problem - calendar
 * https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes
 * https://coderbyte.com/editor/guest:Longest%20Word:Java - longest word
 * http://acmp.ru/index.asp?main=task&id_task=15 - milky way // 5 - good one
