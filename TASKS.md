@@ -8,6 +8,7 @@
  
 
 ### Reviewed
+* http://acmp.ru/index.asp?main=task&id_task=12 
 *  http://acmp.ru/index.asp?main=task&id_task=606 - triangle
 * http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
 * https://www.hackerrank.com/challenges/java-date-and-time/problem - calendar
