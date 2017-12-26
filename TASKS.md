@@ -1,13 +1,13 @@
 ### New
 - http://acmp.ru/index.asp?main=task&id_task=124 - lights
 - https://coderbyte.com/editor/guest:Closest%20Enemy%20II:Java - closest enemy
-- https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
-- https://coderbyte.com/editor/guest:Questions%20Marks:Java - question marks
+- https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen 
 
 
  
 
 ### Reviewed
+* https://coderbyte.com/editor/guest:Questions%20Marks:Java - question marks
 * http://acmp.ru/index.asp?main=task&id_task=12 
 *  http://acmp.ru/index.asp?main=task&id_task=606 - triangle
 * http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
