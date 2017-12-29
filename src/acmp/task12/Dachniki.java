@@ -1,4 +1,4 @@
-package acmp.task124;
+package acmp.task12;
 
 import java.util.Scanner;
 

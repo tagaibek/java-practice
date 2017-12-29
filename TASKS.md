@@ -1,7 +1,9 @@
 ### New
-- http://acmp.ru/index.asp?main=task&id_task=124 - lights
-- https://coderbyte.com/editor/guest:Closest%20Enemy%20II:Java - closest enemy
+
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen 
+
++ http://acmp.ru/index.asp?main=task&id_task=124 - lights
++ https://coderbyte.com/editor/guest:Closest%20Enemy%20II:Java - closest enemy
 
 
  
