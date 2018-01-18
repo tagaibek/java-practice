@@ -1,5 +1,12 @@
 ### New
 
+- https://projecteuler.net/problem=12
+- https://projecteuler.net/problem=21
+- https://projecteuler.net/problem=3
+- https://projecteuler.net/problem=4 
+- https://open.kattis.com/problems/fizzbuzz
+- https://open.kattis.com/problems/synchronizinglists
+
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen 
 
 + http://acmp.ru/index.asp?main=task&id_task=124 - lights
