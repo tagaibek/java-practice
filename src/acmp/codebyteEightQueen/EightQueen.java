@@ -11,7 +11,7 @@ public class EightQueen {
         ArrayList<String> arrayList = new ArrayList<>();
         char[] strings = s.toCharArray();
         for (char j : strings) {
-            if (j >= 49 && j <= 58){
+            if (j > 48 && j < 59){
                 arrayList.add(String.valueOf(j));
             }
         }
