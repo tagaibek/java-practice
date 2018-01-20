@@ -1,8 +1,17 @@
 ### New
 - http://acmp.ru/index.asp?main=task&id_task=2
-- http://acmp.ru/index.asp?main=task&id_task=68
+
+- https://projecteuler.net/problem=12
+- https://projecteuler.net/problem=21
+- https://projecteuler.net/problem=3
+- https://projecteuler.net/problem=4 
+- https://open.kattis.com/problems/fizzbuzz
+- https://open.kattis.com/problems/synchronizinglists
+
+- https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen 
 
 ### Reviewed
+* http://acmp.ru/index.asp?main=task&id_task=68 - bus tickets
 * https://coderbyte.com/editor/guest:Closest%20Enemy%20II:Java - closest enemy
 * http://acmp.ru/index.asp?main=task&id_task=124 - lights
 * https://coderbyte.com/editor/guest:Questions%20Marks:Java - question marks
