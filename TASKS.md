@@ -1,4 +1,7 @@
 ### New
+- https://open.kattis.com/problems/numberfun
+- https://open.kattis.com/problems/compoundwords
+
 - http://acmp.ru/index.asp?main=task&id_task=2
 
 - https://projecteuler.net/problem=12
