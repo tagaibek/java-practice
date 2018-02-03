@@ -1,4 +1,7 @@
 ### New
+- https://open.kattis.com/problems/numberfun
+- https://open.kattis.com/problems/compoundwords
+
 - https://open.kattis.com/problems/synchronizinglists
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen 
 
