@@ -1,4 +1,11 @@
 ### New
+- https://projecteuler.net/problem=14 ( use 1000 instead)
+- https://open.kattis.com/problems/skocimis 
+- https://open.kattis.com/problems/yinyangstones
+- https://open.kattis.com/problems/vauvau
+- https://open.kattis.com/problems/zoo
+- https://open.kattis.com/problems/timebomb
+
 - https://open.kattis.com/problems/numberfun
 - https://open.kattis.com/problems/compoundwords
 
