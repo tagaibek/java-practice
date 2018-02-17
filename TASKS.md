@@ -3,7 +3,7 @@
 - https://open.kattis.com/problems/skocimis 
 - https://open.kattis.com/problems/yinyangstones
 - https://open.kattis.com/problems/vauvau
-- https://open.kattis.com/problems/zoo
+
 
 
 - https://open.kattis.com/problems/compoundwords
@@ -13,6 +13,7 @@
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Reviewed
+* https://open.kattis.com/problems/zoo
 * https://open.kattis.com/problems/synchronizinglists
 * https://open.kattis.com/problems/numberfun
 * https://projecteuler.net/problem=21
