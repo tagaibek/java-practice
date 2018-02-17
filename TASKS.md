@@ -4,15 +4,17 @@
 - https://open.kattis.com/problems/yinyangstones
 - https://open.kattis.com/problems/vauvau
 - https://open.kattis.com/problems/zoo
-- https://open.kattis.com/problems/timebomb
 
-- https://open.kattis.com/problems/numberfun
+
 - https://open.kattis.com/problems/compoundwords
+- https://open.kattis.com/problems/timebomb?
 
-- https://open.kattis.com/problems/synchronizinglists
-- https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen 
+
+- https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Reviewed
+* https://open.kattis.com/problems/synchronizinglists
+* https://open.kattis.com/problems/numberfun
 * https://projecteuler.net/problem=21
 * https://projecteuler.net/problem=3
 * https://projecteuler.net/problem=4 

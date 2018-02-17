@@ -1,47 +1,68 @@
 package openkattis.synch;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Synchronizinglists {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int longs = sc.nextInt();
-        getOrder(longs, sc);
+        while (true) {
+            int n = sc.nextInt();
+            List<Integer> orderedList = getOrder(n, sc);
+            if (n == 0) {
+                break;
+            }
+            print(orderedList);
+        }
     }
 
-    private static int getOrder(int longs, Scanner sc) {
-        int[] ints = new int[longs];
-
-        int[] ints1 = new int[longs];
-
-        int[] ints2 = new int[longs];
-
-        for (int i = 0; i < ints.length; i++) {
-            ints[i] = sc.nextInt();
+    private static void print(List<Integer> list) {
+        for ( Integer i : list) {
+            System.out.println(i);
         }
-        for (int i = 0; i < ints1.length; i++) {
-            ints1[i] = sc.nextInt();
+        System.out.println();
+    }
+
+    private static List<Integer> getOrder(int n, Scanner sc) {
+        if (n == 0) {
+            return null;
         }
 
-        int maxInt = 0;
-        int maxInt1 = 0;
-        int index = 0;
-        for (int i = 0; i < ints.length; i++) {
-            if (ints[i] > maxInt) {
-                maxInt = ints[i];
-                index = i;
+        int[] arr1 = new int[n];
+        int[] arr2 = new int[n];
+        List<Integer> res = new ArrayList<>(n);
+
+        for (int i = 0; i < n; i++) {
+            arr1[i] = sc.nextInt();
+            res.add(0);
+        }
+
+        for (int i = 0; i < n; i++) {
+            arr2[i] = sc.nextInt();
+        }
+
+        Map<Integer, Integer> viMap = new HashMap<>();
+        for (int i = 0; i < n; i++) {
+            viMap.put(arr1[i], i);
+        }
+
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+
+        /*for (Map.Entry<Integer, Integer> pair : viMap.entrySet()) {
+            Integer index = pair.getKey();
+            Integer value = pair.getValue();
+            for (int i = 0; i < n; i ++) {
+                if (arr1[i] == value) {
+                    res[index] = list2[i];
+                    break;
+                }
             }
+        }*/
+        for(int i = 0; i<n; i++){
+            int index = viMap.get(arr1[i]);
+            res.set(index ,arr2[i]);
         }
-        for (int j = 0; j < ints1.length; j++) {
-            if (maxInt1 < ints1[j]) {
-                maxInt1 = ints1[j];
-            }
-        }
-        for (int l = 0; l < ints2.length; l++) {
-            ints2[index] = maxInt1;
-        }
-        return 1;
+
+        return res;
     }
 }
