@@ -28,6 +28,7 @@ public class Yanaton {
         }
         System.out.println(result);
 
+
     }
 
     private static int getResult(String[] value) {
