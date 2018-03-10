@@ -1,25 +1,24 @@
 package openkattis.compoundwords.yinyangstones;
 
-import java.util.Objects;
 import java.util.Scanner;
 
-public class Yanaton {
+public class YingYangStones {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String[] value = sc.nextLine().split("");
+        char[] value = sc.nextLine().toCharArray();
         int result;
         if (value.length % 2 == 0) {
             int countW = 0;
             int countB = 0;
             for (int i = 0; i < value.length; i++) {
-                if (Objects.equals(value[i], "W")) {
+                if (value[i] == 'W') {
                     countW++;
-                } else if (Objects.equals(value[i], "B")) {
+                } else if (value[i] == 'B') {
                     countB++;
                 }
             }
-            if (countW == countB) {
-                result = getResult(value);
+            if (countB == countW) {
+                result = 1;
             } else {
                 result = 0;
             }
@@ -27,12 +26,6 @@ public class Yanaton {
             result = 0;
         }
         System.out.println(result);
-
-
     }
 
-    private static int getResult(String[] value) {
-
-        return Integer.parseInt(null);
-    }
 }

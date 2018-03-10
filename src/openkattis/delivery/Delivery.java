@@ -25,42 +25,40 @@ public class Delivery {
     private static List<String> getResult(int a, int b, int c, int d, int p, int m, int g) {
         List<String> resultList = new ArrayList<>();
 
-        boolean docStatusABP = getDocStatus(a, b, p);
-        boolean docStatusCDP = getDocStatus(c, d, p);
-        if (docStatusABP && docStatusCDP) {
+        boolean aggressiveABP = isAggressive(a, b, p);
+        boolean aggressiveCDP = isAggressive(c, d, p);
+        if (aggressiveABP && aggressiveCDP) {
             resultList.add("both");
-        } else if (docStatusABP || docStatusCDP) {
+        } else if (aggressiveABP || aggressiveCDP) {
             resultList.add("one");
         } else {
             resultList.add("none");
         }
 
-        boolean docStatusABM = getDocStatus(a, b, m);
-        boolean docStatusCDM = getDocStatus(c, d, m);
-        if (docStatusABM && docStatusCDM) {
+        boolean aggressiveABM = isAggressive(a, b, m);
+        boolean aggressiveCDM = isAggressive(c, d, m);
+        if (aggressiveABM && aggressiveCDM) {
             resultList.add("both");
-        } else if (docStatusABM || docStatusCDM) {
+        } else if (aggressiveABM || aggressiveCDM) {
             resultList.add("one");
         } else {
             resultList.add("none");
         }
 
-        boolean docStatusABG = getDocStatus(a, b, g);
-        boolean docStatusCDG = getDocStatus(c, d, g);
-        if (docStatusABG && docStatusCDG) {
+        boolean aggressiveABG = isAggressive(a, b, g);
+        boolean aggressiveCDG = isAggressive(c, d, g);
+        if (aggressiveABG && aggressiveCDG) {
             resultList.add("both");
-        } else if (docStatusABG || docStatusCDG) {
+        } else if (aggressiveABG || aggressiveCDG) {
             resultList.add("one");
         } else {
             resultList.add("none");
         }
-
-
 
         return resultList;
     }
 
-    private static boolean getDocStatus(int aggressive, int calm, int man) {
+    private static boolean isAggressive(int aggressive, int calm, int man) {
         List<Integer> list = new ArrayList<>();
 
         while (list.size() < man) {
@@ -73,10 +71,7 @@ public class Delivery {
         }
 
         Integer integer = list.get(man - 1);
-        if (integer == 1) {
-            return true;
-        }
-        else return false;
+        return integer == 1;
 
 
     }
