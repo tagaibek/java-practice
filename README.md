@@ -20,6 +20,19 @@
     2. static - свойсвта класса
 6. Parameter - methods and constructors can accept parameters | методы и конструкторы могут принимать праметры.
 
+#### Java 7
+* Diamond or Generics:
+```
+List<String> strList = new ArrayList<>();
+```
+#### Java 8
+* Lambdas
+```
+interface Supplier<T>(){
+    T get()
+}
+```
+
 ### EXTRAs
 1) Array / Массивы  - отмечаются типом и квадратными скобками : int[] intArray, String[] strs, Dog[] dogs
 2) List / Список - отмечаются с классом *List и содержимым типом: List<String> stringList, ArrayList<Integer> intLists

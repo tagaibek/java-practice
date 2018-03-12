@@ -1,18 +1,15 @@
 ### New
 - https://projecteuler.net/problem=14 ( use 1000 instead)
 - https://open.kattis.com/problems/skocimis 
-- https://open.kattis.com/problems/yinyangstones
-
-
-
 
 - https://open.kattis.com/problems/timebomb?
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
-+ https://open.kattis.com/problems/vauvau
 
 
 
-### Reviewed
+###
+* https://open.kattis.com/problems/yinyangstones 
+* https://open.kattis.com/problems/vauvau
 * https://open.kattis.com/problems/compoundwords
 * https://open.kattis.com/problems/zoo
 * https://open.kattis.com/problems/synchronizinglists

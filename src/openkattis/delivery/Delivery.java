@@ -3,6 +3,7 @@ package openkattis.delivery;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class Delivery {
     public static void main(String[] args) {
@@ -16,6 +17,7 @@ public class Delivery {
         int m = sc.nextInt();
         int g = sc.nextInt();
 
+        //diamond generics
         List<String> result = getResult(a, b, c, d, p, m, g);
         for (String s : result) {
             System.out.println(s);
@@ -62,17 +64,11 @@ public class Delivery {
         List<Integer> list = new ArrayList<>();
 
         while (list.size() < man) {
-            for (int i = 0; i < aggressive; i ++) {
-                list.add(1);
-            }
-            for (int i = 0; i < calm; i ++) {
-                list.add(0);
-            }
+            IntStream.range(0, aggressive).forEach(i->list.add(1));
+            IntStream.range(0,calm).forEach(i->list.add(0));
         }
 
         Integer integer = list.get(man - 1);
         return integer == 1;
-
-
     }
 }
