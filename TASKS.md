@@ -1,4 +1,16 @@
 ### New
+- https://open.kattis.com/problems/dicegame
+- https://open.kattis.com/problems/pizza2
+- https://open.kattis.com/problems/zamka
+- https://open.kattis.com/problems/trik
+- http://www.codeabbey.com/index/task_view/vowel-count
+- http://www.codeabbey.com/index/task_view/palindromes
+- http://www.codeabbey.com/index/task_view/rotate-string
+- http://www.codeabbey.com/index/task_view/caesar-shift-cipher
+- http://www.codeabbey.com/index/task_view/caesar-cipher-crackerg
+- https://projecteuler.net/problem=19
+- https://open.kattis.com/problems/speedlimit
+
 - https://open.kattis.com/problems/timebomb?
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
