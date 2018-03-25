@@ -1,4 +1,4 @@
-### New
+### New: 
 - https://open.kattis.com/problems/zamka
 - https://open.kattis.com/problems/trik
 - http://www.codeabbey.com/index/task_view/vowel-count
@@ -11,11 +11,14 @@
 - https://open.kattis.com/problems/timebomb?
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
-- https://open.kattis.com/problems/pizza2
-- https://open.kattis.com/problems/dicegame
-- https://open.kattis.com/problems/speedlimit
+### Invalid solutions: 
+- https://open.kattis.com/problems/dicegame - !!! incorrect. Read the description again. 
 
-###
+### We will review this: 
++ https://open.kattis.com/problems/speedlimit -- this works, but we need to review it together and try to simplify it.
+
+### Reviewed
+* https://open.kattis.com/problems/pizza2
 * https://projecteuler.net/problem=14 ( use 1000 instead)
 * https://open.kattis.com/problems/skocimis
 * https://open.kattis.com/problems/yinyangstones 
@@ -34,7 +37,7 @@
 * http://acmp.ru/index.asp?main=task&id_task=124 - lights
 * https://coderbyte.com/editor/guest:Questions%20Marks:Java - question marks
 * http://acmp.ru/index.asp?main=task&id_task=12 
-*  http://acmp.ru/index.asp?main=task&id_task=606 - triangle
+* http://acmp.ru/index.asp?main=task&id_task=606 - triangle
 * http://acmp.ru/index.asp?main=task&id_task=28 - symmetrical!!!
 * https://www.hackerrank.com/challenges/java-date-and-time/problem - calendar
 * https://coderbyte.com/editor/guest:Letter%20Changes:Java - letter changes
