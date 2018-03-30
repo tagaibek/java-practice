@@ -1,6 +1,4 @@
 ### New: 
-- https://open.kattis.com/problems/zamka
-- https://open.kattis.com/problems/trik
 - http://www.codeabbey.com/index/task_view/vowel-count
 - http://www.codeabbey.com/index/task_view/palindromes
 - http://www.codeabbey.com/index/task_view/rotate-string
@@ -11,10 +9,13 @@
 - https://open.kattis.com/problems/timebomb?
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
++ https://open.kattis.com/problems/zamka
++ https://open.kattis.com/problems/trik
 ### Invalid solutions: 
 - https://open.kattis.com/problems/dicegame - !!! incorrect. Read the description again. 
 
 ### We will review this: 
+
 + https://open.kattis.com/problems/speedlimit -- this works, but we need to review it together and try to simplify it.
 
 ### Reviewed
