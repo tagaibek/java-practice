@@ -8,17 +8,17 @@
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 + http://www.codeabbey.com/index/task_view/palindromes
-+ http://www.codeabbey.com/index/task_view/vowel-count
-+ https://open.kattis.com/problems/zamka
-+ https://open.kattis.com/problems/trik
+
 ### Invalid solutions: 
-- https://open.kattis.com/problems/dicegame - !!! incorrect. Read the description again. 
 
 ### We will review this: 
 
-+ https://open.kattis.com/problems/speedlimit -- this works, but we need to review it together and try to simplify it.
-
 ### Reviewed
+* https://open.kattis.com/problems/dicegame
+* https://open.kattis.com/problems/speedlimit
+* https://open.kattis.com/problems/trik
+* https://open.kattis.com/problems/zamka
+* http://www.codeabbey.com/index/task_view/vowel-count
 * https://open.kattis.com/problems/pizza2
 * https://projecteuler.net/problem=14 ( use 1000 instead)
 * https://open.kattis.com/problems/skocimis

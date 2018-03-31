@@ -11,39 +11,32 @@ public class Zamka {
         int d = scanner.nextInt();
         int x = scanner.nextInt();
 
-        // min - n
-        int n = l;
-        for (int i = l; i <= d; i++) {
-            int sum = 0;
-            int t = i;
-            while (t != 0) {
-                sum = sum + t % 10;
-                t /= 10;
-            }
-
-            if (sum == x) {
-                n = i;
-                break;
-            }
-        }
-
-        // max - m
-        int m = d;
-        for (int i = d; i >= l; i--) {
-            int sum = 0;
-            int t = i;
-            while (t != 0) {
-                sum += t % 10;
-                t /= 10;
-            }
-
-            if (sum == x) {
-                m = i;
-                break;
-            }
-        }
+        int n = getResult(l,d,x ,1);
+        int m = getResult(d,l,x,-1);
 
         System.out.println(n);
         System.out.println(m);
+    }
+
+    private static int getResult(final int from, final int to, final int x, final int sign) {
+        for (int i = from; i <= to; i = i + sign) {
+            int sum = getSumOfDigits(i);
+            if (sum == x) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    private static int getSumOfDigits(int number){
+        int sum = 0;
+        int tmp = number;
+        while (tmp != 0) {
+            sum = sum + tmp % 10;
+            tmp /= 10;
+        }
+
+        return sum;
     }
 }

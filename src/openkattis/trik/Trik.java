@@ -12,36 +12,33 @@ public class Trik {
 
     private static int getPlace(String string) {
         char[] chars = string.toCharArray();
-        int[] number = new int[3];
-        number[0] = 1;
-        for (int i = 0; i < chars.length; i++){
-            if ('A' == chars[i] ){
-                int a = number[0];
-                int b = number[1];
-                number[1] = a;
-                number[0] = b;
+        int[] positions = new int[]{1, 0, 0};
+
+        for (char aChar : chars) {
+            if ('A' == aChar) {
+                substitute(positions, 0, 1);
             }
-            if ('B' ==chars[i]){
-                int b = number[1];
-                int c = number[2];
-                number[2] = b;
-                number[1] = c;
+            if ('B' == aChar) {
+                substitute(positions, 1, 2);
             }
-            if ('C' ==chars[i]){
-                int a = number[0];
-                int c = number[2];
-                number[2] = a;
-                number[0] = c;
+            if ('C' == aChar) {
+                substitute(positions, 0, 2);
             }
         }
+
         int result = 0;
-        for (int i = 0; i < number.length; i++) {
-            if (number[i] == 1){
+        for (int i = 0; i < positions.length; i++) {
+            if (positions[i] == 1){
                 result = i + 1;
                 break;
             }
-
         }
         return result;
+    }
+
+    private static void substitute(int[] positions, int p_1, int p_2) {
+        int v_1 = positions[p_1];
+        positions[p_1] = positions[p_2];
+        positions[p_2] = v_1;
     }
 }

@@ -1,17 +1,19 @@
 package codeabbeay.count.count;
 
-import acmp.utils.AdylUtils;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Count {
+public class Vowels {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        int num = AdylUtils.readInt();
+        int num = sc.nextInt();
         String[] strings = new String[num];
         for (int i = 0; i < num; i++){
             String string = sc.nextLine();
+            while (string.isEmpty()){
+                string = sc.nextLine();
+            }
             strings[i] = string;
         }
         int[] result = getCount(strings);
@@ -23,7 +25,7 @@ public class Count {
         System.out.println(" ");
     }
 
-    private static int[] getCount(String[] strings) {
+    private static int[] getCount(java.lang.String[] strings) {
         int[] result = new int[strings.length];
         for (int i = 0 ; i < strings.length; i++) {
             char[] charI = strings[i].toCharArray();
