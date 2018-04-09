@@ -1,6 +1,4 @@
 ### New: 
-- http://www.codeabbey.com/index/task_view/rotate-string
-- http://www.codeabbey.com/index/task_view/caesar-shift-cipher
 - http://www.codeabbey.com/index/task_view/caesar-cipher-crackerg
 - https://projecteuler.net/problem=19
 
@@ -8,12 +6,13 @@
 - https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 + http://www.codeabbey.com/index/task_view/palindromes
-
++ http://www.codeabbey.com/index/task_view/rotate-string
 ### Invalid solutions: 
 
 ### We will review this: 
 
 ### Reviewed
+* http://www.codeabbey.com/index/task_view/caesar-shift-cipher
 * https://open.kattis.com/problems/dicegame
 * https://open.kattis.com/problems/speedlimit
 * https://open.kattis.com/problems/trik

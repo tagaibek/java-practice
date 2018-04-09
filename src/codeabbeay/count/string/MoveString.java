@@ -2,7 +2,6 @@ package codeabbeay.count.string;
 
 
 
-import acmp.utils.AdylUtils;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -30,7 +29,6 @@ public class MoveString {
 
 
     private static String[] getString(String[] strings,int[] steps) {
-        int index = 0;
         String[] newStrings = new String[strings.length];
 
         for (int i = 0; i < strings.length; i++) {
@@ -49,16 +47,18 @@ public class MoveString {
                 }
                 newStrings[i] = new String(newChars);
             }
-            else if (steps[i] < 0){
-                char[] chars1 = new char[chars.length];
-                for (int j = chars.length; j <= 0 ; j--) {
-                    while (j >= steps[i]){
-                        chars1[index] = chars[j];
-                        index++;
+            else if (step < 0){
+                step = (-1 * step);
+                 int step1 = length - step;
+                 int m = 0;
+                for(int j = 0; j < length; j++){
+                    if(j > step1 - 1){
+                        newChars[m++ ] = chars[j];
+                    } else {
+                        newChars[step + j] = chars[j];
                     }
-                    chars1[index] = chars[j];
-                    index++;
                 }
+                newStrings[i] = new String(newChars);
             }
 
         }
