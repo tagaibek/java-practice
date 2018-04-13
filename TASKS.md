@@ -4,7 +4,6 @@
 - https://projecteuler.net/problem=19
 =======
 ### New:
-http://www.codeabbey.com/index/task_view/rock-paper-scissors
 http://www.codeabbey.com/index/task_view/card-names
 http://www.codeabbey.com/index/task_view/anagrams -- challenging one, leave it to later
 http://www.codeabbey.com/index/task_view/rotate-string
@@ -17,6 +16,7 @@ https://open.kattis.com/problems/timebomb?
 https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 <<<<<<< HEAD
++ http://www.codeabbey.com/index/task_view/rock-paper-scissors
 + http://www.codeabbey.com/index/task_view/matching-words
 + http://www.codeabbey.com/index/task_view/palindromes
 + http://www.codeabbey.com/index/task_view/rotate-string
