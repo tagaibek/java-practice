@@ -1,10 +1,10 @@
-package codeabbey.count;
+package codeabbey;
 
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Vowels {
+public class VowelCount {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
