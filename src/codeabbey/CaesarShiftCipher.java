@@ -1,8 +1,8 @@
-package codeabbey.shift;
+package codeabbey;
 
 import java.util.Scanner;
 
-public class Shift {
+public class CaesarShiftCipher {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] strings = new String[sc.nextInt()];
