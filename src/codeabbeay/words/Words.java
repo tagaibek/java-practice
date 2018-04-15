@@ -30,17 +30,17 @@ public class Words {
                     count++;
                 }
             }
-            if (count > 1){
+
+            /*
+            String is always singleton, there are no 2 instances of the same string in the memory.
+            Therefore it is safe to use result.contains(s) here.
+             */
+            if (count > 1 && !result.contains(s)){
                 result.add(s);
             }
         }
-        return sortList(result);
-    }
 
-    private static List<String> sortList(List<String> result) {
-        Set<String> s = new HashSet<>(result);
-        List<String> res = new LinkedList<>(s);
-        Collections.sort(res);
-        return res;
+        Collections.sort(result); // you can just sort the original list
+        return result;
     }
 }

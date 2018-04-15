@@ -11,6 +11,8 @@ public class MoveString {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
+
+        //using Map<Integer,String> would simplify this
         String[] strings = new String[num];
         int[] steps = new int[num];
         for (int i = 0; i < strings.length ; i++){
