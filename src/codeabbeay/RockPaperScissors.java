@@ -1,24 +1,22 @@
-package codeabbeay.rock;
-
-import acmp.utils.AdylUtils;
+package codeabbeay;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class RpS {
+public class RockPaperScissors {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        int fLine = AdylUtils.readInt();
+        int rounds = Integer.parseInt(sc.nextLine());
         List<String[]> strList = new ArrayList<>();
-        for (int i = 0; i < fLine; i++) {
+        for (int i = 0; i < rounds; i++) {
             String s = sc.nextLine();
             String[] strings = s.split(" ");
             strList.add(strings);
         }
-        int [] winner = getWinner(strList);
-        for (int i: winner) {
+        int[] winner = getWinner(strList);
+        for (int i : winner) {
             System.out.print(i + " ");
         }
         System.out.println(" ");
@@ -37,19 +35,18 @@ public class RpS {
     private static int getCount(String[] strMas) {
         int count1 = 0;
         int count2 = 0;
-        for (int j = 0; j < strMas.length; j++) {
-            char[] chars = strMas[j].toCharArray();
+        for (String strMa : strMas) {
+            char[] chars = strMa.toCharArray();
 
             if (chars[0] == 'R' && chars[1] == 'S' || chars[0] == 'P' && chars[1] == 'R' ||
-                    chars[0] == 'S' && chars[1] == 'P') {
+                chars[0] == 'S' && chars[1] == 'P') {
                 count1++;
             } else if (chars[0] == 'S' && chars[1] == 'R' || chars[0] == 'R' && chars[1] == 'P' ||
-                    chars[0] == 'P' && chars[1] == 'S') {
+                chars[0] == 'P' && chars[1] == 'S') {
                 count2++;
             }
         }
-        int result = (count1 > count2) ? 1 : 2;
-        return result;
 
+        return (count1 > count2) ? 1 : 2;
     }
 }

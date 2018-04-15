@@ -1,8 +1,8 @@
-package codeabbeay.words;
+package codeabbeay;
 
 import java.util.*;
 
-public class Words {
+public class MatchingWords {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<String> alibaba = new ArrayList<>();

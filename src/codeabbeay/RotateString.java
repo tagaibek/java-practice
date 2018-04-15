@@ -1,4 +1,4 @@
-package codeabbeay.string;
+package codeabbeay;
 
 
 
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class MoveString {
+public class RotateString {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();

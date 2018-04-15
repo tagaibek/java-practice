@@ -1,9 +1,8 @@
-package codeabbeay.palindrom;
+package codeabbeay;
 
 import acmp.utils.AdylUtils;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Objects;
 import java.util.Scanner;
 

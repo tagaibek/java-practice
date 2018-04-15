@@ -5,20 +5,19 @@ https://open.kattis.com/problems/timebomb?
 https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 http://www.codeabbey.com/index/task_view/caesar-shift-cipher
-http://www.codeabbey.com/index/task_view/card-names
-http://www.codeabbey.com/index/task_view/rock-paper-scissors
-
-http://www.codeabbey.com/index/task_view/palindromes
 
 ### Solved
-http://www.codeabbey.com/index/task_view/matching-words
+http://www.codeabbey.com/index/task_view/palindromes
 
-### Invalid solutions: 
+### Invalid solutions:
+http://www.codeabbey.com/index/task_view/card-names 
 
 ### We will review this: 
+http://www.codeabbey.com/index/task_view/matching-words
+http://www.codeabbey.com/index/task_view/rotate-string
+http://www.codeabbey.com/index/task_view/rock-paper-scissors
 
 ### Reviewed
-http://www.codeabbey.com/index/task_view/rotate-string
 https://open.kattis.com/problems/dicegame
 https://open.kattis.com/problems/speedlimit
 https://open.kattis.com/problems/trik
