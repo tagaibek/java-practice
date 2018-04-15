@@ -1,4 +1,4 @@
-package codeabbeay;
+package codeabbey;
 
 import acmp.utils.AdylUtils;
 

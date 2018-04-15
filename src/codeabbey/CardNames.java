@@ -1,4 +1,4 @@
-package codeabbeay;
+package codeabbey;
 
 import java.io.IOException;
 import java.util.HashMap;
