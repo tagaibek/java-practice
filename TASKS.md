@@ -7,12 +7,13 @@ https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 http://www.codeabbey.com/index/task_view/caesar-shift-cipher
 
 ### Solved
-http://www.codeabbey.com/index/task_view/palindromes
+
 
 ### Invalid solutions:
 http://www.codeabbey.com/index/task_view/card-names 
 
 ### We will review this: 
+http://www.codeabbey.com/index/task_view/palindromes
 http://www.codeabbey.com/index/task_view/matching-words
 http://www.codeabbey.com/index/task_view/rotate-string
 http://www.codeabbey.com/index/task_view/rock-paper-scissors
