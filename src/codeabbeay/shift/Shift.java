@@ -1,4 +1,4 @@
-package codeabbeay.count.shift;
+package codeabbeay.shift;
 
 import java.util.Scanner;
 

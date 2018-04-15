@@ -1,4 +1,4 @@
-package codeabbeay.count.count;
+package codeabbeay.count;
 
 
 import java.io.IOException;

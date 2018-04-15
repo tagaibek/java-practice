@@ -1,4 +1,4 @@
-package codeabbeay.count.string;
+package codeabbeay.string;
 
 
 

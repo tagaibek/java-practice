@@ -1,4 +1,4 @@
-package codeabbeay.count.rock;
+package codeabbeay.rock;
 
 import acmp.utils.AdylUtils;
 

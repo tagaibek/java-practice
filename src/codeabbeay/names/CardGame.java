@@ -1,4 +1,4 @@
-package codeabbeay.count.names;
+package codeabbeay.names;
 
 import acmp.utils.AdylUtils;
 

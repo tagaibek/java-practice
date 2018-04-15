@@ -1,4 +1,4 @@
-package codeabbeay.count.words;
+package codeabbeay.words;
 
 import java.util.*;
 

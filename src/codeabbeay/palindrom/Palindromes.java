@@ -1,4 +1,4 @@
-package codeabbeay.count.palindrom;
+package codeabbeay.palindrom;
 
 import acmp.utils.AdylUtils;
 
