@@ -15,16 +15,17 @@ https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 ### Solved
 
 ### Invalid solutions:
-http://www.codeabbey.com/index/task_view/card-names
+
 http://www.codeabbey.com/index/task_view/caesar-shift-cipher 
 
 ### We will review this: 
 http://www.codeabbey.com/index/task_view/palindromes
-http://www.codeabbey.com/index/task_view/matching-words
+http://www.codeabbey.com/index/task_view/matching-wordst
 http://www.codeabbey.com/index/task_view/rotate-string
 http://www.codeabbey.com/index/task_view/rock-paper-scissors
 
 ### Reviewed
+http://www.codeabbey.com/index/task_view/card-names
 https://open.kattis.com/problems/dicegame
 https://open.kattis.com/problems/speedlimit
 https://open.kattis.com/problems/trik
