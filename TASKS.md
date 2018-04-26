@@ -6,25 +6,27 @@ http://www.codeabbey.com/index/task_view/modular-calculator
 http://www.codeabbey.com/index/task_view/savings-calculator
 http://www.codeabbey.com/index/task_view/tic-tac-toe
 http://www.codeabbey.com/index/task_view/integer-factorization
-http://www.codeabbey.com/index/task_view/fibonacci-divisibility
 http://www.codeabbey.com/index/task_view/anagrams -- challenging one, leave it to later
 https://projecteuler.net/problem=19
 https://open.kattis.com/problems/timebomb?
 https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Solved
+http://www.codeabbey.com/index/task_view/fibonacci-divisibility
 
 ### Invalid solutions:
 
-http://www.codeabbey.com/index/task_view/caesar-shift-cipher 
 
 ### We will review this: 
-http://www.codeabbey.com/index/task_view/palindromes
-http://www.codeabbey.com/index/task_view/matching-wordst
-http://www.codeabbey.com/index/task_view/rotate-string
-http://www.codeabbey.com/index/task_view/rock-paper-scissors
+
+
 
 ### Reviewed
+http://www.codeabbey.com/index/task_view/rock-paper-scissors
+http://www.codeabbey.com/index/task_view/rotate-string
+http://www.codeabbey.com/index/task_view/matching-words
+http://www.codeabbey.com/index/task_view/palindromes
+http://www.codeabbey.com/index/task_view/caesar-shift-cipher 
 http://www.codeabbey.com/index/task_view/card-names
 https://open.kattis.com/problems/dicegame
 https://open.kattis.com/problems/speedlimit
