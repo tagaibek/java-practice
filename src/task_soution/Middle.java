@@ -3,8 +3,6 @@ package task_soution;
 import acmp.utils.AdylUtils;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Middle {
@@ -17,23 +15,18 @@ public class Middle {
             for (int i = 0; i < length; i++) {
                 arrayNum[i] = sc.nextInt();
             }
-            result = foundMiddle(arrayNum);
+            result = verifyCentered(arrayNum);
         }
         System.out.println(result);
     }
 
-    private static int foundMiddle(int[] arrayNum) {
-        int ret = 0;
+    private static int verifyCentered(int[] arrayNum) {
         int middleIndex = arrayNum.length / 2;
-        for (int i = 0; i < arrayNum.length; i++) {
-            if (arrayNum[middleIndex] < arrayNum[i]) {
-                ret++;
+        for (int anArrayNum : arrayNum) {
+            if (arrayNum[middleIndex] > anArrayNum) {
+                return 0;
             }
         }
-        int length = arrayNum.length -1;
-        if (ret == length){
-            ret = 1;
-        }else ret = 0;
-        return ret;
+        return 1;
     }
 }
