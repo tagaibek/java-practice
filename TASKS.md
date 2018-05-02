@@ -2,7 +2,7 @@
 http://www.codeabbey.com/index/task_view/reverse-polish-notation
 http://www.codeabbey.com/index/task_view/binary-heap
 http://www.codeabbey.com/index/task_view/fahrenheit-celsius
-http://www.codeabbey.com/index/task_view/modular-calculator
+
 
 http://www.codeabbey.com/index/task_view/tic-tac-toe
 http://www.codeabbey.com/index/task_view/integer-factorization
@@ -12,18 +12,12 @@ https://open.kattis.com/problems/timebomb?
 https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Solved
-
-
-### Invalid solutions:
-
-
-### We will review this: 
-
-
-
-### Reviewed
-http://www.codeabbey.com/index/task_view/fibonacci-divisibility
 http://www.codeabbey.com/index/task_view/savings-calculator
+### Invalid solutions:
+### We will review this:
+### Reviewed
+http://www.codeabbey.com/index/task_view/modular-calculator
+http://www.codeabbey.com/index/task_view/fibonacci-divisibility
 http://www.codeabbey.com/index/task_view/rock-paper-scissors
 http://www.codeabbey.com/index/task_view/rotate-string
 http://www.codeabbey.com/index/task_view/matching-words
