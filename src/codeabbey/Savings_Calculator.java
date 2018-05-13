@@ -33,11 +33,13 @@ public class Savings_Calculator {
             int initial_amount = test[0];
             int final_amount = test[1];
             int percent = test[2];
-            int year = 0;
+            int year ;
+            int month =0 ;
             while (initial_amount < final_amount){
-                initial_amount += (percent* initial_amount)/ 100 ;
-                year++;
+                initial_amount += (percent* initial_amount)/ (12 * 100) ;
+                month++;
             }
+            year = month / 12;
             result[i] = year;
             i++;
         }

@@ -1,7 +1,7 @@
 ### New:
 http://www.codeabbey.com/index/task_view/reverse-polish-notation
 http://www.codeabbey.com/index/task_view/binary-heap
-http://www.codeabbey.com/index/task_view/fahrenheit-celsius
+
 
 
 http://www.codeabbey.com/index/task_view/tic-tac-toe
@@ -13,6 +13,7 @@ https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Solved
 http://www.codeabbey.com/index/task_view/savings-calculator
+http://www.codeabbey.com/index/task_view/fahrenheit-celsius
 ### Invalid solutions:
 ### We will review this:
 ### Reviewed
