@@ -3,10 +3,7 @@ package codeabbey;
 import acmp.utils.AdylUtils;
 
 import java.io.IOException;
-import java.util.AbstractMap;
 import java.util.AbstractMap.SimpleEntry;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class CardNames {
