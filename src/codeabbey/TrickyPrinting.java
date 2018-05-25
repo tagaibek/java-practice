@@ -26,27 +26,27 @@ public class TrickyPrinting {
         int count = 0;
         for (String s : string) {
             char[] chars = s.toCharArray();
-            for (int i = 0; i < chars.length; i++) {
+            for (char aChar : chars) {
                 count++;
             }
         }
         if (count > 10) {
-            String result = "";
+            StringBuilder result = new StringBuilder();
             int in = count / 10;
             int inn = count % 10;
             if (inn > 0){
                 int sum = in + inn;
                 for (int i = 0; i < sum ; i++) {
-                    result += "+";
+                    result.append("+");
                     if (i == in - 1){
-                        result +=  " : ";
+                        result.append(" : ");
                     }
                 }
                 return result + " :";
             }
             else {
                 for (int i = 0; i <in ; i++) {
-                    result += "+";
+                    result.append("+");
                 }
                 return result + " :";
             }
