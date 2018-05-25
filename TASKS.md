@@ -10,6 +10,7 @@ https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Solved
 http://www.codeabbey.com/index/task_view/tricky-printing
+http://www.codeabbey.com/index/task_view/prime-ranges
 ### Invalid solutions:
 http://www.codeabbey.com/index/task_view/binary-heap
 ### We will review this:
