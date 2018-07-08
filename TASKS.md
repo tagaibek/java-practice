@@ -1,5 +1,7 @@
 ### New:
-
+http://www.codeabbey.com/index/task_view/matching-brackets
+http://www.codeabbey.com/index/task_view/bubble-in-array
+http://www.codeabbey.com/index/task_view/array-checksum
 http://www.codeabbey.com/index/task_view/reverse-polish-notation
 
 http://www.codeabbey.com/index/task_view/integer-factorization???
@@ -9,12 +11,13 @@ https://open.kattis.com/problems/timebomb?
 https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Solved
-http://www.codeabbey.com/index/task_view/tricky-printing
-http://www.codeabbey.com/index/task_view/prime-ranges
+
 ### Invalid solutions:
-http://www.codeabbey.com/index/task_view/binary-heap
+http://www.codeabbey.com/index/task_view/tricky-printing
+
 ### We will review this:
 ### Reviewed
+http://www.codeabbey.com/index/task_view/prime-ranges
 http://www.codeabbey.com/index/task_view/tic-tac-toe
 http://www.codeabbey.com/index/task_view/savings-calculator
 http://www.codeabbey.com/index/task_view/fahrenheit-celsius
@@ -83,3 +86,6 @@ http://acmp.ru/- gcd ( greatest common divisor )
 http://acmp.ru/index.asp?main=task&id_task=317 - santa 
 http://acmp.ru/index.asp?main=task&id_task=131 - oldest man
 http://acmp.ru/index.asp?main=task&id_task=633 - ACM world
+
+### problems to solve after getting master's degree.
+http://www.codeabbey.com/index/task_view/binary-heap

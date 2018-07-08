@@ -14,9 +14,9 @@ public class PrimeRanges {
             for (currentNumber = a; currentNumber <= b; currentNumber++) {
                 int dividers = 0;
                 for (int j = 2; j <= b; j++) {
-                    if (checkSimple(currentNumber,j)) {
+                    if (currentNumber % j == 0) {
+                        dividers++;
                     }
-                    else dividers++;
                 }
                 if (dividers == 1){
                     count++;
@@ -33,9 +33,6 @@ public class PrimeRanges {
     }
 
     private static boolean checkSimple(int currentNumber, int j) {
-        if (currentNumber % j ==0){
-            return false;
-        }
-        return true;
+        return currentNumber % j != 0;
     }
 }
