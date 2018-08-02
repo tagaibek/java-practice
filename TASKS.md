@@ -3,6 +3,7 @@ http://www.codeabbey.com/index/task_view/matching-brackets
 http://www.codeabbey.com/index/task_view/bubble-in-array
 http://www.codeabbey.com/index/task_view/array-checksum
 http://www.codeabbey.com/index/task_view/reverse-polish-notation
+http://www.codeabbey.com/index/task_view/blackjack-counting
 
 http://www.codeabbey.com/index/task_view/integer-factorization???
 
