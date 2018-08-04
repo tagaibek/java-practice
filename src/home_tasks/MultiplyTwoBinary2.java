@@ -18,33 +18,29 @@ public class MultiplyTwoBinary2 {
 
         int resultDecimal = decimal1 * decimal2;
 
-        int resultBinary = convertToBinary(resultDecimal);
-        return resultBinary;
+        return convertToBinary(resultDecimal);
     }
 
     private static int convertToBinary(int resultDecimal) {
-        String temp = "";
-        int b;
+        StringBuilder temp = new StringBuilder();
 
         while (resultDecimal != 0) {
-            b = resultDecimal % 2;
-            temp = b + temp;
+            int b = resultDecimal % 2;
+            temp.insert(0, b);
             resultDecimal = resultDecimal / 2;
         }
-        return Integer.parseInt(temp);
+        return Integer.parseInt(temp.toString());
     }
 
     private static int convertToDecimal(int binary) {
 
-        int res = 0, a, mult = 0;
+        int res = 0, mult = 0;
         char[] symbols = String.valueOf(binary).toCharArray();
 
         for (int len = symbols.length - 1; len >= 0; len--) {
-            int temp;
-            a = Character.getNumericValue(symbols[len]);
-            temp = a * pow(mult);
+            int a = Character.getNumericValue(symbols[len]);
+            res += (int) (a * Math.pow(2, mult));
             mult++;
-            res += temp;
         }
 
         return res;
