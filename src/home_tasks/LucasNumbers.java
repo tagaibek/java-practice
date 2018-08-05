@@ -1,23 +1,19 @@
 package home_tasks;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LucasNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int ten = sc.nextInt();
-        int[] result = new int[ten];
-        int num1 = 2;
-        int num2 = 1;
-        result[0] = num1; result[1] = num2;
+        int length = sc.nextInt();
+        int[] result = new int[length];
+        result[0] = 2;
+        result[1] = 1;
         for (int i = 2; i < result.length; i++) {
-            result[i] = num1 + num2;
-            num1 = num2;
-            num2 = result[i];
+            result[i] = result[i-2] + result[i-1];
         }
-        System.out.println("First ten Lucas a numbers:");
-        for (int i : result) {
-            System.out.println(i);
-        }
+
+        System.out.println("First " + length + " Lucas a numbers:" + Arrays.toString(result));
     }
 }

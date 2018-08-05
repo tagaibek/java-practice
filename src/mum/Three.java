@@ -12,7 +12,7 @@ public class Three {
         int start = sc.nextInt();
         int length = sc.nextInt();
 
-        char[] result = subChars(chars, start, length);
+        char[] result = subChars2(chars, start, length);
         if (result == null) {
             System.out.println("null");
         } else if (result.length == 0) {
@@ -20,6 +20,19 @@ public class Three {
         } else {
             System.out.println(new String(result));
         }
+    }
+
+    private static char[] subChars2(char[] chars, int start, int length){
+        if(start < 0 || length < 0 || start + length > chars.length){
+            return null;
+        }
+
+        char[] subChars = new char[length];
+        for(int i = 0; i< length; i++){
+            subChars[i] = chars[start + i];
+        }
+
+        return subChars;
     }
 
     private static char[] subChars(char[] chars, int start, int length) {
@@ -32,7 +45,7 @@ public class Three {
         if (length == 0) {
             return new char[0];
         }
-        if (start > length) {
+        if (start > length) { //start=2, length =1
             for (int i = start; i > length; i--) {
                 characterList.add(chars[i]);
             }
