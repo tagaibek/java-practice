@@ -29,19 +29,18 @@ public class HappyNumbers {
 
     private static int find_1(int happy) {
         while (happy != 1) {
-            int a;
-            int b;
+            int a, b, c;
             if (happy < 100) {
                 a = happy / 10;
                 b = happy % 10;
                 happy = a * a + b * b;
             } else {
                 a = happy / 100;
-                int c = happy % 100;
-                b = c / 10;
-                c = c % 10;
+                b = (happy - a * 100) / 10;
+                c = happy % 100;
                 happy = a * a + b * b + c * c;
             }
+
             if (happy < 10) {
                 return happy;
             }

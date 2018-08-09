@@ -6,17 +6,20 @@ import java.util.Scanner;
 public class Investment {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int amountInvest = sc.nextInt();
+        double amountInvest = sc.nextInt();
         double rateOfInterest = sc.nextInt();
         int years = sc.nextInt();
-
-
-        double result = futureValue(amountInvest,rateOfInterest,years);
-        result = Math.round(result * 100.0) / 100.0;
+        double result = monthlyCompound(amountInvest,rateOfInterest,years);
         System.out.println(result);
     }
 
-    private static double futureValue(int amountInvest, double rateOfInterest, int years) {
+    private static double monthlyCompound(double amountInvest, double rateInterest, int years){
+        for (int i = 0; i < years * 12; i++) {
+            amountInvest += Math.round(((amountInvest * rateInterest)/12)) / 100.;
+        }
+        return amountInvest;
+    }
+    private static double dailyCompound(int amountInvest, double rateOfInterest, int years) {
         int mon;
         double sumYear = 0;
         for (int i = 1; i < 13 ; i++) {
