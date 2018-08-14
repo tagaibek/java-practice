@@ -1,4 +1,11 @@
 ### New:
+https://www.hackerrank.com/challenges/bon-appetit/problem
+https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+https://www.hackerrank.com/challenges/the-grid-search/problem
+https://www.hackerrank.com/challenges/grading/problem
+https://open.kattis.com/problems/cups
+https://open.kattis.com/problems/mixedfractions
+https://www.hackerrank.com/challenges/extra-long-factorials/problem
 http://www.codeabbey.com/index/task_view/matching-brackets
 http://www.codeabbey.com/index/task_view/bubble-in-array
 http://www.codeabbey.com/index/task_view/array-checksum
