@@ -15,7 +15,7 @@ public class StackingCups {
             strings[i] = s;
         }
         String[] result  = stack(strings);
-        System.out.println(result);
+        System.out.println(Arrays.toString(result));
     }
 
     private static String[] stack(String[] strings) {
@@ -24,22 +24,15 @@ public class StackingCups {
         for (String s : strings) {
             String[] s1 = s.split(" ");
             try {
-                map.put((Integer.parseInt(s1[0])),s1[1]);
+                map.put((Integer.parseInt(s1[0])), s1[1]);
 
-            }
-            catch (NumberFormatException nfe){
-                map.put((Integer.parseInt(s1[1]) * 2 ),s1[0]);
+            } catch (NumberFormatException nfe) {
+                map.put((Integer.parseInt(s1[1]) * 2), s1[0]);
             }
         }
-        System.out.println(map.toString());
         Map<Integer, String> treeMap = new TreeMap<>(map);
-        String s =  "";
         for (int i = 0; i < result.length ; i++) {
-            if (!Objects.equals((String) treeMap.values().toArray()[i], s)){
-                result[i] = (String) treeMap.values().toArray()[i];
-                s = (String) treeMap.values().toArray()[i];
-            }
-            else result[i] = "none";
+            result[i] = (String) treeMap.values().toArray()[i];
         }
         return result;
     }

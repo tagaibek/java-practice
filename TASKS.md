@@ -7,6 +7,7 @@ https://open.kattis.com/problems/timebomb?
 https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Solved
+https://open.kattis.com/problems/cups
 http://www.codeabbey.com/index/task_view/bubble-in-array
 http://www.codeabbey.com/index/task_view/blackjack-counting
 http://www.codeabbey.com/index/task_view/array-checksum
@@ -19,7 +20,7 @@ http://www.codeabbey.com/index/task_view/tricky-printing
 
 ### We will review this:
 https://www.hackerrank.com/challenges/the-grid-search/problem
-https://open.kattis.com/problems/cups
+
 ### Reviewed
 http://www.codeabbey.com/index/task_view/prime-ranges
 http://www.codeabbey.com/index/task_view/tic-tac-toe
