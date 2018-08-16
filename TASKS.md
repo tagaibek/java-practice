@@ -1,30 +1,25 @@
 ### New:
-https://www.hackerrank.com/challenges/bon-appetit/problem
-https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
-https://www.hackerrank.com/challenges/the-grid-search/problem
-https://www.hackerrank.com/challenges/grading/problem
-https://open.kattis.com/problems/cups
-https://open.kattis.com/problems/mixedfractions
-
-https://www.hackerrank.com/challenges/extra-long-factorials/problem
 http://www.codeabbey.com/index/task_view/matching-brackets
-http://www.codeabbey.com/index/task_view/bubble-in-array
-http://www.codeabbey.com/index/task_view/array-checksum
 http://www.codeabbey.com/index/task_view/reverse-polish-notation
-http://www.codeabbey.com/index/task_view/blackjack-counting
-
 http://www.codeabbey.com/index/task_view/integer-factorization???
-
 https://projecteuler.net/problem=19
 https://open.kattis.com/problems/timebomb?
 https://coderbyte.com/editor/guest:Eight%20Queens:Java - eight queen
 
 ### Solved
-
+http://www.codeabbey.com/index/task_view/bubble-in-array
+http://www.codeabbey.com/index/task_view/blackjack-counting
+http://www.codeabbey.com/index/task_view/array-checksum
+https://www.hackerrank.com/challenges/grading/problem
+https://www.hackerrank.com/challenges/bon-appetit/problem
+https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+https://open.kattis.com/problems/mixedfractions
 ### Invalid solutions:
 http://www.codeabbey.com/index/task_view/tricky-printing
 
 ### We will review this:
+https://www.hackerrank.com/challenges/the-grid-search/problem
+https://open.kattis.com/problems/cups
 ### Reviewed
 http://www.codeabbey.com/index/task_view/prime-ranges
 http://www.codeabbey.com/index/task_view/tic-tac-toe
