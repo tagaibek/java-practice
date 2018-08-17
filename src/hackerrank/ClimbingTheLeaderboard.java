@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
+public class ClimbingTheLeaderboard {
 
     private static final Scanner scanner = new Scanner(System.in);
 
