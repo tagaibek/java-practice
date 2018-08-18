@@ -1,7 +1,13 @@
 ### New:
+<<<<<<< HEAD
+=======
+https://www.hackerrank.com/challenges/the-grid-search/problem
+http://www.codeabbey.com/index/task_view/matching-brackets
+>>>>>>> 603db713265d32efdf0d12e41833fcb2e4ca722c
 http://www.codeabbey.com/index/task_view/reverse-polish-notation
 https://open.kattis.com/problems/timebomb?
 ### Solved
+<<<<<<< HEAD
 http://www.codeabbey.com/index/task_view/tricky-printing
 http://www.codeabbey.com/index/task_view/matching-brackets
 https://projecteuler.net/problem=19
@@ -19,10 +25,27 @@ https://www.hackerrank.com/challenges/the-grid-search/problem
 
 ### Reviewed
 https://www.hackerrank.com/challenges/grading/problem
+=======
+
+### Invalid solutions:
+http://www.codeabbey.com/index/task_view/tricky-printing
+https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+
+### We will review this:
+
+### Reviewed
+https://open.kattis.com/problems/mixedfractions
+https://www.hackerrank.com/challenges/bon-appetit/problem
+
+>>>>>>> 603db713265d32efdf0d12e41833fcb2e4ca722c
 http://www.codeabbey.com/index/task_view/blackjack-counting
 https://open.kattis.com/problems/cups
 http://www.codeabbey.com/index/task_view/bubble-in-array
 http://www.codeabbey.com/index/task_view/array-checksum
+<<<<<<< HEAD
+=======
+https://www.hackerrank.com/challenges/grading/problem
+>>>>>>> 603db713265d32efdf0d12e41833fcb2e4ca722c
 http://www.codeabbey.com/index/task_view/prime-ranges
 http://www.codeabbey.com/index/task_view/tic-tac-toe
 http://www.codeabbey.com/index/task_view/savings-calculator
