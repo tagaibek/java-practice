@@ -1,5 +1,6 @@
 package codeabbey;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BlackjackCounting {
@@ -18,6 +19,7 @@ public class BlackjackCounting {
             result[i] = counter(numberChars);
         }
 
+        System.out.println(Arrays.toString(result));
     }
 
     private static String counter(char[] s) {
@@ -29,10 +31,8 @@ public class BlackjackCounting {
             } else if (s[i] == 50 || s[i] == 51 || s[i] == 52 || s[i] == 53 || s[i] == 54 ||
                     s[i] == 55 || s[i] == 56 || s[i] == 57 || s[i] == 50 + 48) {
                 count += Integer.parseInt(String.valueOf(s[i]));
-            } else if (s[i] == 'A' && count <=21) {
-                count += 11;
-            } else if (s[i] == 'A' && count >= 21) {
-                count += 1;
+            } else if (s[i] == 'A') {
+                count += (count + 11 > 21)? 1 : 11;
             }
 
             if (count > 21) {

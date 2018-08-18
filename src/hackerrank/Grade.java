@@ -9,13 +9,11 @@ public class Grade {
 
     public static void main(String[] args) throws Exception {
 
-        final int n = Integer.parseInt(scan.nextLine().trim());
-        final int[] grades = IntStream.range(0, n).map(i -> scan.nextInt()).toArray();
+        final int n = scan.nextInt();
 
-//        for (int gradesItr = 0; gradesItr < n; gradesItr++) {
-//            int gradesItem = Integer.parseInt(scan.nextLine().trim());
-//            grades[gradesItr] = gradesItem;
-//        }
+        final int[] grades = IntStream.range(0, n)
+                .map(i -> scan.nextInt())
+                .toArray();
 
         int[] result = gradingStudents(grades);
         System.out.println(Arrays.toString(result));

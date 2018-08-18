@@ -2,6 +2,7 @@ package codeabbey;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class MatchingBrackets {
     public static void main(String[] args) {
@@ -14,46 +15,47 @@ public class MatchingBrackets {
                 string = sc.nextLine();
             }
             char[] chars = string.toCharArray();
-            result[i] = sequence(chars);
+            result[i] = isBracket(chars);
         }
         System.out.println(Arrays.toString(result));
     }
 
-    private static int sequence(char[] chars) {
-        int num = isBracket(chars);
-        return num;
-    }
-
-    private static int isBracket(char[] chars) {
-        StringBuilder value = new StringBuilder();
+    private static int isBracket(char[] chars){
+        String value = "";
         for (char i : chars) {
             if (i == 40 || i == 41 || i == 60 || i == 62
-                    || i == 91 || i == 93 || i == 123 || i == 125) {
-                value.append(i);
+                    || i == 91 ||  i == 93 || i == 123 || i == 125 ){
+                value += i;
             }
         }
-        char[] seq = value.toString().toCharArray();
-        int index = 0;
-        int count1 = 0;
-        int count2 = 0;
-        int result = 0;
-        if (seq.length % 2 == 0) {
-            for (int i = 0; i < seq.length; i++) {
-                int c = seq[i];
-                char founder;
-                if (c == 40) {
-                    founder = 41;
-                } else {
-                    founder = (char) (c + 2);
-                }
-                for (int j = i + 1; j < seq.length ; j++) {
-                    if (seq[j] == founder){
+        char[] seq = value.toCharArray();
+        int result = isBracket2(seq);
+        return result;
+    }
 
-                    }
+
+
+    private static int isBracket2(char[] chars) {
+        Stack<Character> stack = new Stack<>();
+        if (chars.length % 2 !=0){
+            return 0;
+        }
+        for (char c: chars) {
+            if (c == '(' || c == '[' || c == '{' || c == '<'){
+                stack.push(c);
+            }else {
+                if (stack.isEmpty()) {
+                    return 0;
+                }
+
+                char top = stack.pop();
+                if (!((c == ')' && top == '(')  || (c == ']' && top == '[') ||
+                        (c == '}' && top == '{') || (c == '>' && top == '<'))) {
+                    return 0;
                 }
             }
         }
-    return 0;
+    return 1;
     }
 }
 
