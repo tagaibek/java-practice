@@ -1,3 +1,7 @@
+0) Sort of List <int[]> : you have List <int[]> you'll sort list and Array. input first int in size of list,
+   second int arrays length
+
+ F.E : list {4, 5, 6}; {5, 3, 6} return => [3, 5, 6] [4, 5, 6]
 1)
 An array with an odd number of elements is said to be centered if all elements (except the middle one)
 are strictly greater than the value of the middle element.
