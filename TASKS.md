@@ -1,15 +1,9 @@
 ### New:
 https://www.hackerrank.com/challenges/correctness-invariant/problem
 https://www.hackerrank.com/challenges/separate-the-numbers/problem
-<<<<<<< HEAD
-=======
-https://www.hackerrank.com/challenges/the-grid-search/problem
-http://www.codeabbey.com/index/task_view/matching-brackets
->>>>>>> 603db713265d32efdf0d12e41833fcb2e4ca722c
 http://www.codeabbey.com/index/task_view/reverse-polish-notation
 https://open.kattis.com/problems/timebomb?
 ### Solved
-<<<<<<< HEAD
 http://www.codeabbey.com/index/task_view/tricky-printing
 http://www.codeabbey.com/index/task_view/matching-brackets
 https://projecteuler.net/problem=19
@@ -17,37 +11,21 @@ https://www.hackerrank.com/challenges/insertionsort2/problem
 https://www.hackerrank.com/challenges/insertionsort1/problem
 https://www.hackerrank.com/challenges/closest-numbers/problem
 http://www.codeabbey.com/index/task_view/integer-factorization
-https://www.hackerrank.com/challenges/bon-appetit/problem
-https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
-https://open.kattis.com/problems/mixedfractions
-### Invalid solutions:
-
-### We will review this:
-https://www.hackerrank.com/challenges/the-grid-search/problem
-
-### Reviewed
-https://www.hackerrank.com/challenges/grading/problem
-=======
-
 ### Invalid solutions:
 http://www.codeabbey.com/index/task_view/tricky-printing
 https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
 
 ### We will review this:
+https://www.hackerrank.com/challenges/the-grid-search/problem
 
 ### Reviewed
 https://open.kattis.com/problems/mixedfractions
 https://www.hackerrank.com/challenges/bon-appetit/problem
-
->>>>>>> 603db713265d32efdf0d12e41833fcb2e4ca722c
 http://www.codeabbey.com/index/task_view/blackjack-counting
 https://open.kattis.com/problems/cups
 http://www.codeabbey.com/index/task_view/bubble-in-array
 http://www.codeabbey.com/index/task_view/array-checksum
-<<<<<<< HEAD
-=======
 https://www.hackerrank.com/challenges/grading/problem
->>>>>>> 603db713265d32efdf0d12e41833fcb2e4ca722c
 http://www.codeabbey.com/index/task_view/prime-ranges
 http://www.codeabbey.com/index/task_view/tic-tac-toe
 http://www.codeabbey.com/index/task_view/savings-calculator
